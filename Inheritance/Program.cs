@@ -6,36 +6,17 @@ namespace Inheritance
 
             // Create a class Animal
             // give this class 4 members that all Animals have in common
-            public class Animal
-            {
-                public string Name { get; set; }
-                public double Age { get; set;}
-                public string Habitat { get; set; }
-                public bool IsWild { get; set; }
-            }
-
+            
 
             // Create a class Bird
             // give this class 4 members that are specific to Bird
             // Set this class to inherit from your Animal Class
-            public class Bird : Animal
-            {
-                public bool CanFly { get; set; }
-                public double WingSpan { get; set; }
-                public string BeakType { get; set; }
-                public string MigrationSeason { get; set; }
-            }
+          
 
             // Create a class Reptile
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
-            public class Reptile : Animal
-            {
-                public bool IsColdBlooded { get; set; }
-                public bool CanRegrowTail { get; set; }
-                public string ScaleType { get; set; }
-                public string PreferredTempRange { get; set; }
-            }
+            
     class Program
     {   
         static void Main(string[] args) 
